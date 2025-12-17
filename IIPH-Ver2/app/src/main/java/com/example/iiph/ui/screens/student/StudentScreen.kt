@@ -17,8 +17,29 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.iiph.data.*
 import com.example.iiph.ui.components.*
+
+// Data classes moved here to resolve build errors
+data class Internship(
+    val id: Int,
+    val title: String,
+    val company: String,
+    val location: String,
+    val duration: String,
+    val stipend: String,
+    val deadline: String,
+    val category: String,
+    val applied: Boolean
+)
+
+data class InternshipFeedback(
+    val studentName: String,
+    val company: String,
+    val role: String,
+    val rating: Float,
+    val feedback: String,
+    val year: String
+)
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -185,7 +206,7 @@ fun StudentTabs(selectedTab: Int, tabs: List<String>, onTabSelected: (Int) -> Un
 
 @Composable
 fun InternshipTab() {
-    val internships = listOf(
+    val internships = listOf<Internship>(
         Internship(
             id = 1,
             title = "Software Development Intern",
@@ -210,7 +231,7 @@ fun InternshipTab() {
         )
     )
     
-    val feedbacks = listOf(
+    val feedbacks = listOf<InternshipFeedback>(
         InternshipFeedback(
             studentName = "Sarah Chen",
             company = "Amazon",

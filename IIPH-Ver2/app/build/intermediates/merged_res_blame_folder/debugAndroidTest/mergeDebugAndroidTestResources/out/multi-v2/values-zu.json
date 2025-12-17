@@ -4,24 +4,7 @@
             "outputFile": "com.example.iiph.test.app-mergeDebugAndroidTestResources-27:/values-zu/values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\2915ac4a79e79f07bf53eedf72d0e7fb\\transformed\\core-1.17.0\\res\\values-zu\\values-zu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,153,257,356,459,565,672,785",
-                        "endColumns": "97,103,98,102,105,106,112,100",
-                        "endOffsets": "148,252,351,454,560,667,780,881"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "201,299,403,502,605,711,818,2328",
-                        "endColumns": "97,103,98,102,105,106,112,100",
-                        "endOffsets": "294,398,497,600,706,813,926,2424"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\596b6ac8f9b10f42d23be45d1f032b53\\transformed\\ui-release\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\3dbbfe3e82ed3fad91ac20db59041015\\transformed\\ui-release\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,931,1026,1108,1213,1318,1408,1490,1579,1672,1755,1843,1931,2007,2096,2177,2253,2429,2508,2578",
                         "endColumns": "95,94,81,104,104,89,81,88,92,82,87,87,75,88,80,75,74,78,69,123",
                         "endOffsets": "196,1021,1103,1208,1313,1403,1485,1574,1667,1750,1838,1926,2002,2091,2172,2248,2323,2503,2573,2697"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\5259a52c3bc5aae1d422566ff47d5c5e\\transformed\\core-1.17.0\\res\\values-zu\\values-zu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,153,257,356,459,565,672,785",
+                        "endColumns": "97,103,98,102,105,106,112,100",
+                        "endOffsets": "148,252,351,454,560,667,780,881"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "201,299,403,502,605,711,818,2328",
+                        "endColumns": "97,103,98,102,105,106,112,100",
+                        "endOffsets": "294,398,497,600,706,813,926,2424"
                     }
                 }
             ]

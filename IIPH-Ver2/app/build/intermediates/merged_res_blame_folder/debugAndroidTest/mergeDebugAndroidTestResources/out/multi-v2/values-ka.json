@@ -4,24 +4,7 @@
             "outputFile": "com.example.iiph.test.app-mergeDebugAndroidTestResources-27:/values-ka/values-ka.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\2915ac4a79e79f07bf53eedf72d0e7fb\\transformed\\core-1.17.0\\res\\values-ka\\values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,151,253,352,451,557,661,779",
-                        "endColumns": "95,101,98,98,105,103,117,100",
-                        "endOffsets": "146,248,347,446,552,656,774,875"
-                    },
-                    "to": {
-                        "startLines": "3,4,5,6,7,8,9,26",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "191,287,389,488,587,693,797,2315",
-                        "endColumns": "95,101,98,98,105,103,117,100",
-                        "endOffsets": "282,384,483,582,688,792,910,2411"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\596b6ac8f9b10f42d23be45d1f032b53\\transformed\\ui-release\\res\\values-ka\\values-ka.xml",
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\3dbbfe3e82ed3fad91ac20db59041015\\transformed\\ui-release\\res\\values-ka\\values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "105,915,1011,1097,1196,1299,1389,1469,1565,1655,1742,1831,1922,1994,2084,2162,2240,2416,2495,2565",
                         "endColumns": "85,95,85,98,102,89,79,95,89,86,88,90,71,89,77,77,74,78,69,120",
                         "endOffsets": "186,1006,1092,1191,1294,1384,1464,1560,1650,1737,1826,1917,1989,2079,2157,2235,2310,2490,2560,2681"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\DELL\\.gradle\\caches\\8.13\\transforms\\5259a52c3bc5aae1d422566ff47d5c5e\\transformed\\core-1.17.0\\res\\values-ka\\values-ka.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,151,253,352,451,557,661,779",
+                        "endColumns": "95,101,98,98,105,103,117,100",
+                        "endOffsets": "146,248,347,446,552,656,774,875"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,26",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "191,287,389,488,587,693,797,2315",
+                        "endColumns": "95,101,98,98,105,103,117,100",
+                        "endOffsets": "282,384,483,582,688,792,910,2411"
                     }
                 }
             ]

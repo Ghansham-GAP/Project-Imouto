@@ -19,7 +19,8 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.iiph.data.*
+import com.example.iiph.data.ActionItem
+import com.example.iiph.data.StatItem
 import com.example.iiph.ui.components.*
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -356,7 +357,7 @@ fun ApplicationCard(index: Int) {
 
 @Composable
 fun QuickActionsGrid() {
-    val actions = listOf(
+    val actions = listOf<ActionItem>(
         ActionItem("Filter Candidates", Icons.Default.FilterList, Color(0xFF4361EE)),
         ActionItem("Schedule Interview", Icons.Default.CalendarToday, Color(0xFFF72585)),
         ActionItem("Send Bulk Email", Icons.Default.Email, Color(0xFF7209B7)),
@@ -379,6 +380,7 @@ fun QuickActionsGrid() {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun QuickActionCard(action: ActionItem, modifier: Modifier = Modifier) {
     Card(
