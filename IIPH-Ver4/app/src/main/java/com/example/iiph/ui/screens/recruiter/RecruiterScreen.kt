@@ -36,15 +36,6 @@ fun RecruiterScreen(navController: NavHostController) {
                 onBackClick = { navController.popBackStack() },
                 onAddClick = { /* Post new job */ }
             )
-        },
-        floatingActionButton = {
-            FloatingActionButton(
-                onClick = { /* Create new job posting */ },
-                containerColor = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.padding(bottom = 80.dp)
-            ) {
-                Icon(Icons.Default.Add, contentDescription = "Post Job")
-            }
         }
     ) { paddingValues ->
         Column(
@@ -587,6 +578,51 @@ fun InterviewsTab() {
         
         repeat(4) { index ->
             InterviewCard(index)
+        }
+    }
+}
+
+@Composable
+fun JobPostingCard(index: Int) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Text(text = "Job posting ${index + 1}", modifier = Modifier.padding(16.dp))
+    }
+}
+
+@Composable
+fun CandidateSearchBar() {
+    OutlinedTextField(
+        value = "",
+        onValueChange = {},
+        label = { Text("Search candidates...") },
+        modifier = Modifier.fillMaxWidth(),
+        leadingIcon = { Icon(Icons.Default.Search, contentDescription = null) }
+    )
+}
+
+@Composable
+fun CandidateListItem(index: Int) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Text(text = "Candidate ${index + 1}", modifier = Modifier.padding(16.dp))
+    }
+}
+
+@Composable
+fun InterviewCard(index: Int) {
+    Card(modifier = Modifier.fillMaxWidth()) {
+        Text(text = "Interview ${index + 1}", modifier = Modifier.padding(16.dp))
+    }
+}
+
+@Composable
+fun StatCard(stat: StatItem, modifier: Modifier) {
+    Card(modifier = modifier) {
+        Column(
+            modifier = Modifier.padding(16.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+            Text(text = stat.title, style = MaterialTheme.typography.labelMedium)
+            Text(text = stat.value, style = MaterialTheme.typography.headlineSmall)
         }
     }
 }
