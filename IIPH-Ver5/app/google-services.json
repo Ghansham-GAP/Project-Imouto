@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "830226611696",
+    "project_id": "iiph-cba59",
+    "storage_bucket": "iiph-cba59.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830226611696:android:60e4d9da742d1d6f92f135",
+        "android_client_info": {
+          "package_name": "com.example.iiph"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzMvNvEHIONmumCglTr5NPHuNa9ZuvMfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
